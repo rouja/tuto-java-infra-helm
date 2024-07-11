@@ -6,3 +6,12 @@ image:
 
 ingress:
   host: ctrjr.apps.dso-formation.hp.numerique-interieur.com
+
+global:
+  postgresql:
+    auth:
+      existingSecret: "postgres-crtjr"
+      secretKeys:
+        adminPasswordKey: postgres-password
+        userPasswordKey: password
+        replicationPasswordKey: replication-password
