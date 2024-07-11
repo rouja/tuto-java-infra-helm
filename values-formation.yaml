@@ -1,8 +1,8 @@
 image:
-  repository: harbor.apps.c6.numerique-interieur.com/pm-formation/java-demo 
+  repository: harbor.apps.c6.numerique-interieur.com/pm-crtjr/java-demo
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "master"
 
 ingress:
-  host: jroussel-java-demo.dso.numerique-interieur.com
+  host: ctrjr.apps.dso-formation.hp.numerique-interieur.com
